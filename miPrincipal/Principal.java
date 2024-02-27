@@ -8,11 +8,16 @@ public class Principal {
         Scanner consola = new Scanner(System.in);
         int opc =0;
         do{
-            System.out.println("++++++++++++++++++++++++++++++++");
-            System.out.println("---------------RECURSIVIDAD-------------");
-            System.out.println("++++++++++++++++++++++++++++++++");
-            System.out.println("1) IMPRIMIR LADRILLOS");
-            System.out.println("                   ");
+            System.out.println("*************************");
+            System.out.println("      RECURSIVIDAD       ");
+            System.out.println("*************************");
+            System.out.println("1) LADRILLOS");
+            System.out.println("2) Factorial");
+            System.out.println("3) Numeros naturales");
+            System.out.println("4) Suma digitos");
+            System.out.println("5) Recursividad indirecta");
+            System.out.println("6) Maximo Comun divisor");
+            System.out.println("7)");
             System.out.println("0) SALIR");
             System.out.print("Selecciona opción:");
             opc=consola.nextInt();
@@ -22,22 +27,17 @@ public class Principal {
                AppLadrillos.menu();
                break;
             case 2:
-              
+                AppFactorial.menu();
+                break;
+
             case 3:
-               
+                AppNaturales.menu();
+                break;
+
             case 4:
-               
-            case 5:
-               
-            case 6:
-             
-            case 7:
-               
-            case 8:
-               
-            case 9:
-               
-            case 10:
+                AppSumaDigitos.menu();
+                break;
+
                
             case 0:
                System.out.println("ADIOS!");
