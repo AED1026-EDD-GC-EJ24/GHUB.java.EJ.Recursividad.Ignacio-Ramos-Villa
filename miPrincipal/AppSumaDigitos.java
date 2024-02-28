@@ -14,5 +14,4 @@ public class AppSumaDigitos{
         System.out.println("Version recursiva");
         System.out.println("Resultado = "+sumaDigitosRec(n));
 }
-public static in 
 }

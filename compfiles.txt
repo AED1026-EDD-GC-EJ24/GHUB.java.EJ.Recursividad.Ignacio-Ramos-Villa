@@ -1,5 +1,6 @@
 ./miPrincipal/AppRational.java
 ./miPrincipal/Principal.java
+./miPrincipal/maximocomundivisor.java
 ./miPrincipal/AppLadrillos.java
 ./miPrincipal/AppSumaDigitos.java
 ./miPrincipal/AppFactorial.java
