@@ -41,5 +41,16 @@ public class Performance{
     public boolean isStoped(){
         return stoped;
     }
-    ublic
+    public long getTf(){
+        return tf;
+    }
+    public void setTf(long tf){
+        this.tf = tf;
+    }
+    public boolean isStoped(){
+        return stoped;
+    }
+    public void setStoped(boolean stoped) {
+        this.stoped = stoped;
+    }
 }
